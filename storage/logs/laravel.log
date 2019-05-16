@@ -1,0 +1,47 @@
+[2019-02-19 15:47:49] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/hgsdev/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:168)
+[stacktrace]
+#0 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(114): Illuminate\\Log\\LogManager->error('Class 'jeremyke...', Array)
+#4 /home/hgsdev/app/Exceptions/Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 /home/hgsdev/public_html/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-02-19 15:47:49] laravel.ERROR: Class 'jeremykenedy\LaravelRoles\RolesServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'jeremykenedy\\LaravelRoles\\RolesServiceProvider' not found at /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:662)
+[stacktrace]
+#0 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(594): Illuminate\\Foundation\\Application->resolveProvider('jeremykenedy\\\\La...')
+#1 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register('jeremykenedy\\\\La...')
+#2 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(211): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#7 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#8 /home/hgsdev/public_html/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#9 {main}
+"} 
+[2019-02-19 10:47:51] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/hgsdev/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:168)
+[stacktrace]
+#0 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(498): Illuminate\\Log\\LogManager->driver()
+#3 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 /home/hgsdev/app/Exceptions/Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 /home/hgsdev/public_html/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-02-19 10:47:51] laravel.ERROR: syntax error, unexpected end of file, expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected end of file, expecting ']' at /home/hgsdev/config/debugbar.php:111)
+[stacktrace]
+#0 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(211): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 /home/hgsdev/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 /home/hgsdev/public_html/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 {main}
+"} 

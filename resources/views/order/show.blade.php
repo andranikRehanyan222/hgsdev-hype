@@ -1,0 +1,131 @@
+@extends('layouts.app')
+
+@section('template_title')
+    {{ __('Order No. ') . $data->id }}
+@endsection
+
+
+@section('template_linked_css')
+    <link href="/assets/css/ecommerce/product-details-1.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/plugins/dropify/dropify.min.css">
+    <link href="/assets/css/users/account-setting.css" rel="stylesheet" type="text/css" />
+@endsection
+
+
+@section('content')
+    
+
+<div class="container">
+<div class="row layout-spacing">
+
+
+
+<div class="col-xl-12 col-lg-12 col-md-12 layout-spacing">
+<div class="edu-experience product-detail-1">
+    <div class="info product-detailing">
+        <h4 class="mt-4">Details</h4>
+
+<ul class="info-list list-unstyled mb-0">
+    <li class="w-50">
+        <span class="info-list-title ">Products:</span>
+        <span class="info-list-text">{{ $data->text }}</span>
+    </li>
+    <li class="w-50">
+        <span class="info-list-title">Instagram account:</span>
+        <span class="info-list-text">
+            {{ $data->account->username }}
+        </span>
+    </li>
+    <li class="w-50">
+        <span class="info-list-title">
+Status:
+        </span>
+        <span class="info-list-text">
+        	{{ $data->transaction_status }}
+        </span>
+    </li>
+    <li class="w-50">
+        <span class="info-list-title">
+Transaction Cost:
+        </span>
+        <span class="info-list-text">
+        	${{ $data->transaction_cost }}
+        </span>
+    </li>
+    <li class="w-50">
+        <span class="info-list-title">
+Transaction ID:
+        </span>
+        <span class="info-list-text">
+        	{{ $data->transaction_id }}
+        </span>
+    </li>
+    <li class="w-50">
+        <span class="info-list-title">
+Payer ID:
+        </span>
+        <span class="info-list-text">
+        	{{ $data->payer_id }}
+        </span>
+    </li>
+    <li class="w-50">
+        <span class="info-list-title">
+Payment ID:
+        </span>
+        <span class="info-list-tex1t">
+        	{{ $data->payment_id }}
+        </span>
+    </li>
+</ul>
+
+        <h5 class="">
+        	
+        	
+    	</h5>
+
+        {{-- <div class="row">
+            <div class="col-md-11 mx-auto">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control mb-4" name="username" id="username" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control mb-4" name="password" id="password" placeholder="Password">
+                        </div>
+                    </div>                                    
+
+                <div class="save-info">
+                    <div class="row">
+                        <div class="col-md-11 mx-auto">
+                            <button class="btn btn-gradient-warning mb-4 float-right btn-rounded">Save</button>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div> --}}
+    </div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+
+@endsection
+
+
+@section('template_scripts')
+    <script src="/assets/js/users/calendar.js"></script>
+    <script src="/assets/js/users/custom-profile.js"></script>
+@endsection
+
+

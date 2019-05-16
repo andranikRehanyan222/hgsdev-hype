@@ -1,0 +1,6 @@
+.widget.box .widget-content {
+  height: 700px; }
+
+@media (max-width: 991px) {
+  .widget.box .widget-content {
+    height: auto; } }

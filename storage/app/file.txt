@@ -1,0 +1,214 @@
+order_id => 20 
+ 
+actions => [object Object] 
+ 
+id => 6GP618974M921494M 
+ 
+links => 0 => href => https://api.sandbox.paypal.com/v2/checkout/orders/6GP618974M921494M 
+ 
+rel => self 
+ 
+method => GET 
+ 
+ 
+1 => href => https://www.sandbox.paypal.com/checkoutnow?token=6GP618974M921494M 
+ 
+rel => approve 
+ 
+method => GET 
+ 
+ 
+2 => href => https://api.sandbox.paypal.com/v2/checkout/orders/6GP618974M921494M 
+ 
+rel => update 
+ 
+method => PATCH 
+ 
+ 
+3 => href => https://api.sandbox.paypal.com/v2/checkout/orders/6GP618974M921494M/capture 
+ 
+rel => capture 
+ 
+method => POST 
+ 
+ 
+ 
+status => CREATED 
+ 
+id => 16688926M6723832F 
+ 
+links => 0 => href => https://api.sandbox.paypal.com/v2/checkout/orders/16688926M6723832F 
+ 
+rel => self 
+ 
+method => GET 
+ 
+ 
+1 => href => https://www.sandbox.paypal.com/checkoutnow?token=16688926M6723832F 
+ 
+rel => approve 
+ 
+method => GET 
+ 
+ 
+2 => href => https://api.sandbox.paypal.com/v2/checkout/orders/16688926M6723832F 
+ 
+rel => update 
+ 
+method => PATCH 
+ 
+ 
+3 => href => https://api.sandbox.paypal.com/v2/checkout/orders/16688926M6723832F/capture 
+ 
+rel => capture 
+ 
+method => POST 
+ 
+ 
+ 
+status => CREATED 
+ 
+id => 13X7126961739131P 
+ 
+links => 0 => href => https://api.sandbox.paypal.com/v2/checkout/orders/13X7126961739131P 
+ 
+rel => self 
+ 
+method => GET 
+ 
+ 
+1 => href => https://www.sandbox.paypal.com/checkoutnow?token=13X7126961739131P 
+ 
+rel => approve 
+ 
+method => GET 
+ 
+ 
+2 => href => https://api.sandbox.paypal.com/v2/checkout/orders/13X7126961739131P 
+ 
+rel => update 
+ 
+method => PATCH 
+ 
+ 
+3 => href => https://api.sandbox.paypal.com/v2/checkout/orders/13X7126961739131P/capture 
+ 
+rel => capture 
+ 
+method => POST 
+ 
+ 
+ 
+status => CREATED 
+ 
+order_id => 20 
+ 
+actions => [object Object] 
+ 
+id => 7UN37599VY6876026 
+ 
+links => 0 => href => https://api.sandbox.paypal.com/v2/checkout/orders/7UN37599VY6876026 
+ 
+rel => self 
+ 
+method => GET 
+ 
+ 
+1 => href => https://www.sandbox.paypal.com/checkoutnow?token=7UN37599VY6876026 
+ 
+rel => approve 
+ 
+method => GET 
+ 
+ 
+2 => href => https://api.sandbox.paypal.com/v2/checkout/orders/7UN37599VY6876026 
+ 
+rel => update 
+ 
+method => PATCH 
+ 
+ 
+3 => href => https://api.sandbox.paypal.com/v2/checkout/orders/7UN37599VY6876026/capture 
+ 
+rel => capture 
+ 
+method => POST 
+ 
+ 
+ 
+status => CREATED 
+ 
+order_id => 20 
+ 
+actions => [object Object] 
+ 
+id => 1JX305651X5523424 
+ 
+links => 0 => href => https://api.sandbox.paypal.com/v2/checkout/orders/1JX305651X5523424 
+ 
+rel => self 
+ 
+method => GET 
+ 
+ 
+1 => href => https://www.sandbox.paypal.com/checkoutnow?token=1JX305651X5523424 
+ 
+rel => approve 
+ 
+method => GET 
+ 
+ 
+2 => href => https://api.sandbox.paypal.com/v2/checkout/orders/1JX305651X5523424 
+ 
+rel => update 
+ 
+method => PATCH 
+ 
+ 
+3 => href => https://api.sandbox.paypal.com/v2/checkout/orders/1JX305651X5523424/capture 
+ 
+rel => capture 
+ 
+method => POST 
+ 
+ 
+ 
+status => CREATED 
+ 
+order_id => 20 
+ 
+actions => [object Object] 
+ 
+id => 37R85691FW353862X 
+ 
+links => 0 => href => https://api.sandbox.paypal.com/v2/checkout/orders/37R85691FW353862X 
+ 
+rel => self 
+ 
+method => GET 
+ 
+ 
+1 => href => https://www.sandbox.paypal.com/checkoutnow?token=37R85691FW353862X 
+ 
+rel => approve 
+ 
+method => GET 
+ 
+ 
+2 => href => https://api.sandbox.paypal.com/v2/checkout/orders/37R85691FW353862X 
+ 
+rel => update 
+ 
+method => PATCH 
+ 
+ 
+3 => href => https://api.sandbox.paypal.com/v2/checkout/orders/37R85691FW353862X/capture 
+ 
+rel => capture 
+ 
+method => POST 
+ 
+ 
+ 
+status => CREATED 
+ 
